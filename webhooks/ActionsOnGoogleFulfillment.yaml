@@ -1,0 +1,15 @@
+handlers:
+- name: get_url
+- name: read_url
+- name: media_status
+- name: read_genre
+- name: list_genre_books
+- name: get_all_genres
+- name: read_genre_books
+- name: get_newest_uploads
+- name: read_newest_uploads
+- name: get_popular_books
+- name: read_popular_books
+httpsEndpoint:
+  baseUrl: https://us-central1-b-able-61e19.cloudfunctions.net/ActionsOnGoogleFulfillment
+  endpointApiVersion: 2

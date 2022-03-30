@@ -1,0 +1,7 @@
+parameters:
+- name: genre
+  type:
+    name: Genre
+trainingPhrases:
+- ($genre 'genre ' auto=false)읽어주세요
+- ($genre 'genre' auto=false)

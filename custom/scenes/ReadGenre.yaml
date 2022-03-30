@@ -1,0 +1,7 @@
+intentEvents:
+- handler:
+    webhookHandler: list_genre_books
+  intent: ReadGenreBooksIntent
+  transitionToScene: ReadGenreBooks
+onEnter:
+  webhookHandler: read_genre

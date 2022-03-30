@@ -1,0 +1,9 @@
+accountLinking:
+  enableAccountCreation: true
+  linkingType: GOOGLE_SIGN_IN
+defaultLocale: ko
+localizedSettings:
+  displayName: 비에이
+  pronunciation: 비에이
+  voice: female_1
+projectId: b-able-61e19

@@ -1,0 +1,19 @@
+conditionalEvents:
+- condition: session.params.AccountLinkingSlot == "LINKED"
+  transitionToScene: Initialize
+- condition: session.params.AccountLinkingSlot == "ERROR"
+  transitionToScene: Initialize
+- condition: session.params.AccountLinkingSlot == "REJECTED"
+  transitionToScene: Initialize
+slots:
+- commitBehavior:
+    writeSessionParam: AccountLinkingSlot
+  config:
+    '@type': type.googleapis.com/google.actions.conversation.v3.SignInSpec
+    opt_context: 책 정보를 저장을 하려면
+  defaultValue:
+    sessionParam: AccountLinkingSlot
+  name: AccountLinkingSlot
+  required: true
+  type:
+    name: actions.type.AccountLinking

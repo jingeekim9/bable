@@ -1,0 +1,7 @@
+parameters:
+- name: book
+  type:
+    name: Book
+trainingPhrases:
+- ($book 'book' auto=false)
+- ($book 'book ' auto=false)읽어주세요

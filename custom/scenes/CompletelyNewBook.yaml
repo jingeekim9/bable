@@ -1,0 +1,20 @@
+intentEvents:
+- handler:
+    webhookHandler: get_newest_uploads
+  intent: NewestUploadsIntent
+  transitionToScene: ReadNewestUploads
+- handler:
+    webhookHandler: get_popular_books
+  intent: PopularBookIntent
+  transitionToScene: ReadPopularBooks
+- handler:
+    webhookHandler: get_all_genres
+  intent: GenreIntent
+  transitionToScene: ReadGenre
+onEnter:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: 최신 업로드, 인기, 장르

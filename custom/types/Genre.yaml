@@ -1,0 +1,16 @@
+synonym:
+  entities:
+    Children's Book:
+      synonyms:
+      - Children's Book
+      - 어린이 책
+    Dark Humor:
+      synonyms:
+      - Dark Humor
+      - 어두운 유머
+    Fairytale:
+      synonyms:
+      - Fairytale
+      - 동화
+      - 동화책
+  matchType: EXACT_MATCH

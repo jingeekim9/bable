@@ -1,0 +1,6 @@
+intentEvents:
+- handler:
+    webhookHandler: media_status
+  intent: actions.intent.MEDIA_STATUS_PAUSED
+onEnter:
+  webhookHandler: read_url

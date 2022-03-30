@@ -1,0 +1,8 @@
+handler:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: 안녕하세요. 비에이블입니다.
+transitionToScene: AccountLinkingOrigin

@@ -1,0 +1,67 @@
+synonym:
+  entities:
+    Frog and Toad:
+      synonyms:
+      - Frog and Toad
+      - 개구리와 두꺼비
+    Froggy Eats Out:
+      synonyms:
+      - Froggy Eats Out
+      - 프로기 외식하다
+    In a Dark, Dark Room and Other Scary Stories:
+      synonyms:
+      - In a Dark, Dark Room and Other Scary Stories
+      - 어둡고 어두운 방 그리고 다른 무서운 이야기들
+    Jack and the Beanstalk:
+      synonyms:
+      - Jack and the Beanstalk
+      - 잭과 콩나무
+    Lazy Jack:
+      synonyms:
+      - Lazy Jack
+      - 게으른 잭
+    Phyllis and Xenophobia:
+      synonyms:
+      - Phyllis and Xenophobia
+      - 필리스와 외국인 혐오증
+    Rapunzel:
+      synonyms:
+      - Rapunzel
+      - 라푼젤
+    Snow White:
+      synonyms:
+      - Snow White
+      - 백설공주
+    The Dragon and the Phoenix:
+      synonyms:
+      - The Dragon and the Phoenix
+      - 용과 불사조
+    The Josefina Story Quilt:
+      synonyms:
+      - The Josefina Story Quilt
+      - 요세피나 이야기 퀼트
+    The Little Mermaid:
+      synonyms:
+      - The Little Mermaid
+      - 인어공주
+    The Little Woman who Lives in a Shoe:
+      synonyms:
+      - The Little Woman who Lives in a Shoe
+      - 신발 속에 사는 작은 여자
+    The Man and the Serpent:
+      synonyms:
+      - The Man and the Serpent
+      - 인간과 뱀
+    The Rainbow Fish:
+      synonyms:
+      - The Rainbow Fish
+      - 무지개 물고기
+    The Ugly Little Duckling:
+      synonyms:
+      - The Ugly Little Duckling
+      - 미운 오리 새끼
+    The Velveteen Rabbit:
+      synonyms:
+      - The Velveteen Rabbit
+      - 벨베틴 레빗
+  matchType: EXACT_MATCH
